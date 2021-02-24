@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 const title = "Landing Template for Startups";
 const description =
-  "Our landing page template is free to clone and perfect for all sorts of technology businesses. Built by the flowbase team.";
+  "Our landing page template is equipped with high-tech and perfect for all sorts of technology businesses. Built by the Weppa team.";
 const buttonText = "Pricing and Plans";
 
 export default function Header() {
