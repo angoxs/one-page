@@ -1,4 +1,5 @@
 import { Frame, Column, Title, Description, Button } from "./style";
+import Fade from "react-reveal/Fade";
 
 const title = "Landing Template for Startups";
 const description =
@@ -7,12 +8,14 @@ const buttonText = "Pricing and Plans";
 
 export default function Header() {
   return (
-    <Frame>
-      <Column>
-        <Title>{title}</Title>
-        <Description>{description}</Description>
-        <Button>{buttonText}</Button>
-      </Column>
-    </Frame>
+    <Fade>
+      <Frame>
+        <Column>
+          <Title>{title}</Title>
+          <Description>{description}</Description>
+          <Button>{buttonText}</Button>
+        </Column>
+      </Frame>
+    </Fade>
   );
 }

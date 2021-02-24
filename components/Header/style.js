@@ -34,6 +34,8 @@ export const Button = styled("button", {
   fontSize: 14,
   fontWeight: 500,
   cursor: "pointer",
-  border: "5px solid rgba(255, 255, 255, 0.5)",
+  border: "5px solid rgba(0, 0, 0, 0.1)",
   borderRadius: 8,
+  background: "white",
+  color: "black",
 });
