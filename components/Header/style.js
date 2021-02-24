@@ -6,6 +6,10 @@ export const Frame = styled("div", {
   alignItems: "center",
   justifyContent: "center",
   minHeight: "100vh",
+
+  bp2: {
+    padding: "0 20px",
+  },
 });
 
 export const Column = styled("section", {
@@ -20,12 +24,20 @@ export const Column = styled("section", {
 
 export const Title = styled("h1", {
   fontSize: 64,
+
+  bp2: {
+    fontSize: 54,
+  },
 });
 
 export const Description = styled("p", {
   fontSize: 20,
   marginTop: 20,
   marginBottom: 40,
+
+  bp2: {
+    fontSize: 18,
+  },
 });
 
 export const Button = styled("button", {

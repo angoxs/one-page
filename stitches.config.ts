@@ -1,6 +1,7 @@
 import { createStyled } from "@stitches/react";
 
 export const { styled, css } = createStyled({
+  prefix: '',
   tokens: {
     fonts: {
       $system: "system-ui",
@@ -15,4 +16,12 @@ export const { styled, css } = createStyled({
       $3: "17px",
     },
   },
+  breakpoints: {
+    bp1: (rule) => `@media (max-width: 640px) { ${rule} }`,
+    bp2: (rule) => `@media (max-width: 768px) { ${rule} }`,
+    bp3: (rule) => `@media (max-width: 1024px) { ${rule} }`,
+    bp4: (rule) => `@media (max-width: 1280px) { ${rule} }`,
+  },
+  utils: {},
 });
+
