@@ -18,7 +18,7 @@ export const Column = styled("section", {
   alignItems: "center",
   justifyContent: "center",
   flex: 1,
-  maxWidth: 800,
+  maxWidth: 1000,
   textAlign: "center",
 });
 
