@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { styled } from "../stitches.config";
+import Navigation from "./Navigation";
 
 const Frame = styled("div", {
   maxWidth: 1280,
@@ -14,7 +15,7 @@ const Frame = styled("div", {
 
 export default function Layout({ children }) {
   return (
-    <Frame>
+    <div>
       <Head>
         <title>Startup Page</title>
         <link rel="icon" href="/favicon.ico" />
@@ -23,7 +24,8 @@ export default function Layout({ children }) {
         @import
         url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');
       </style>
-      {children}
-    </Frame>
+      <Navigation />
+      <Frame>{children}</Frame>
+    </div>
   );
 }

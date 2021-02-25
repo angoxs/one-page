@@ -7,10 +7,12 @@ export const Frame = styled("div", {
   justifyContent: "space-between",
   paddingTop: 40,
   paddingBottom: 40,
+  paddingRight: 90,
+  paddingLeft: 90,
+  borderBottom: "1px solid #1e253b",
 
   bp2: {
-    paddingTop: 20,
-    paddingBottom: 20,
+    padding: 20,
   },
 });
 

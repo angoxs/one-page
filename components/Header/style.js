@@ -43,7 +43,7 @@ export const Title = styled("h1", {
   fontSize: 64,
 
   bp2: {
-    fontSize: 44,
+    fontSize: 50,
   },
 });
 
