@@ -12,7 +12,7 @@ import Client from "./Client";
 
 const title = "Landing Template for Startups";
 const description =
-  "Our landing page template is equipped with high-tech and perfect for all sorts of technology businesses. Built by the MaxUp team.";
+  "Our landing page template is equipped with high-tech and perfect for all sorts of technology businesses. Built with React & Stitches by Angel.";
 const buttonText = "Pricing and Plans";
 
 export default function Header() {
