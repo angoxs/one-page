@@ -36,7 +36,7 @@ export const Description = styled("p", {
   marginBottom: 40,
 
   bp2: {
-    fontSize: 18,
+    fontSize: 16,
   },
 });
 
@@ -55,5 +55,9 @@ export const Button = styled("button", {
   ":hover": {
     background: "#004ED9",
     boxShadow: "0px 20px 40px rgba(0, 89, 247, 0.35)",
+  },
+
+  bp2: {
+    width: "100%",
   },
 });
