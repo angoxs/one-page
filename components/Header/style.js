@@ -22,6 +22,7 @@ export const Column = styled("section", {
   flex: 1,
   maxWidth: 1000,
   textAlign: "center",
+  borderBottom: "1px solid #1e253b",
 });
 
 export const Grid = styled("div", {
@@ -31,6 +32,7 @@ export const Grid = styled("div", {
   justifyContent: "stretch",
   width: "100%",
   gridGap: 20,
+  marginBottom: 40,
 
   bp2: {
     gridTemplateColumns: "1fr 1fr",

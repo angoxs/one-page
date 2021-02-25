@@ -23,15 +23,16 @@ export default function Header() {
           <Title>{title}</Title>
           <Description>{description}</Description>
           <Button>{buttonText}</Button>
+
+          <Image src="/images/maxup.png" />
+          <Grid>
+            <Client logo="/logos/01.svg" />
+            <Client logo="/logos/02.svg" />
+            <Client logo="/logos/03.svg" />
+            <Client logo="/logos/04.svg" />
+            <Client logo="/logos/05.svg" />
+          </Grid>
         </Column>
-        <Image src="/images/maxup.png" />
-        <Grid>
-          <Client logo="/logos/01.svg" />
-          <Client logo="/logos/02.svg" />
-          <Client logo="/logos/03.svg" />
-          <Client logo="/logos/04.svg" />
-          <Client logo="/logos/05.svg" />
-        </Grid>
       </Frame>
     </Fade>
   );
