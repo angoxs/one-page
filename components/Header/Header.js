@@ -15,8 +15,8 @@ export default function Header() {
           <Description>{description}</Description>
           <Button>{buttonText}</Button>
         </Column>
+        <img src="/images/maxup.png" width="100%" />
       </Frame>
-      <img src="/images/maxup.png" width="100%" style={{ margin: "0 auto" }} />
     </Fade>
   );
 }

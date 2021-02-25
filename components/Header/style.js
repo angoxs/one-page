@@ -21,6 +21,7 @@ export const Column = styled("section", {
   justifyContent: "center",
   flex: 1,
   maxWidth: 1000,
+  marginBottom: 80,
   textAlign: "center",
 });
 
