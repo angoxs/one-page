@@ -7,17 +7,14 @@ export const Frame = styled("div", {
   justifyContent: "space-between",
   paddingTop: 40,
   paddingBottom: 40,
-  paddingRight: 90,
-  paddingLeft: 90,
-  position: "absolute",
-  width: "100%",
 
   bp2: {
-    padding: 20,
+    paddingTop: 20,
+    paddingBottom: 20,
   },
 });
 
-export const Column = styled("section", {
+export const Row = styled("section", {
   display: "flex",
   flexDirection: "row",
   alignItems: "center",

@@ -5,10 +5,12 @@ export const Frame = styled("div", {
   flexDirection: "column",
   alignItems: "center",
   justifyContent: "center",
-  minHeight: "100vh",
+  paddingTop: 150,
+  paddingBottom: 150,
 
   bp2: {
-    padding: "0 20px",
+    paddingTop: 80,
+    paddingBottom: 80,
   },
 });
 
