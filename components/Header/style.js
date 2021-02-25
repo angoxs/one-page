@@ -21,8 +21,22 @@ export const Column = styled("section", {
   justifyContent: "center",
   flex: 1,
   maxWidth: 1000,
-  marginBottom: 80,
   textAlign: "center",
+});
+
+export const Grid = styled("div", {
+  display: "grid",
+  gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr",
+  alignItems: "center",
+  justifyContent: "stretch",
+  width: "100%",
+  gridGap: 20,
+
+  bp2: {
+    gridTemplateColumns: "1fr 1fr",
+    justifyContent: "center",
+    alignItems: "center",
+  },
 });
 
 export const Title = styled("h1", {
@@ -41,6 +55,13 @@ export const Description = styled("p", {
   bp2: {
     fontSize: 16,
   },
+});
+
+export const Image = styled("img", {
+  objectFit: "cover",
+  width: "100%",
+  marginTop: 80,
+  marginBottom: 80,
 });
 
 export const Button = styled("button", {

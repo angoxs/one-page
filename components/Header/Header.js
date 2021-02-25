@@ -1,5 +1,14 @@
-import { Frame, Column, Title, Description, Button } from "./style";
+import {
+  Frame,
+  Column,
+  Grid,
+  Title,
+  Description,
+  Image,
+  Button,
+} from "./style";
 import Fade from "react-reveal/Fade";
+import Client from "./Client";
 
 const title = "Landing Template for Startups";
 const description =
@@ -15,7 +24,14 @@ export default function Header() {
           <Description>{description}</Description>
           <Button>{buttonText}</Button>
         </Column>
-        <img src="/images/maxup.png" width="100%" />
+        <Image src="/images/maxup.png" />
+        <Grid>
+          <Client logo="/logos/01.svg" />
+          <Client logo="/logos/02.svg" />
+          <Client logo="/logos/03.svg" />
+          <Client logo="/logos/04.svg" />
+          <Client logo="/logos/05.svg" />
+        </Grid>
       </Frame>
     </Fade>
   );
