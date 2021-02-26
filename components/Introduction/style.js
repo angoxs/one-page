@@ -22,6 +22,10 @@ export const Column = styled("section", {
   textAlign: "center",
   width: "100%",
   marginBottom: 120,
+
+  bp2: {
+    marginBottom: 60,
+  },
 });
 
 export const Row = styled("section", {
@@ -46,6 +50,8 @@ export const Title = styled("h1", {
 
   bp2: {
     fontSize: 44,
+    marginTop: 10,
+    marginBottom: 0,
   },
 });
 
