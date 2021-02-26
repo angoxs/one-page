@@ -37,8 +37,7 @@ export const Row = styled("section", {
   gridGap: 80,
 
   bp2: {
-    display: "flex",
-    flexDirection: "column",
+    gridTemplateColumns: "1fr",
     gridGap: 40,
   },
 });
