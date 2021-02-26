@@ -1,4 +1,4 @@
-import { Features, Header } from "../components";
+import { CTA, Features, Header } from "../components";
 import Layout from "../components/Layout";
 
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
     <Layout title="Home">
       <Header />
       <Features />
+      <CTA />
     </Layout>
   );
 }
