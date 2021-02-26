@@ -74,6 +74,7 @@ export const Text = styled("h2", {
   color: "white",
   fontSize: 38,
   fontWeight: 600,
+  margin: 0,
 
   bp2: {
     fontSize: 34,
@@ -83,6 +84,7 @@ export const Text = styled("h2", {
 export const SubText = styled("p", {
   fontSize: 20,
   maxWidth: 400,
+  marginTop: 20,
 
   bp2: {
     fontSize: 16,
