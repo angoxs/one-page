@@ -24,7 +24,7 @@ export const Column = styled("section", {
   marginBottom: 120,
 
   bp2: {
-    marginBottom: 60,
+    marginBottom: 100,
   },
 });
 
@@ -39,7 +39,7 @@ export const Row = styled("section", {
   bp2: {
     display: "flex",
     flexDirection: "column",
-    gridGap: 20,
+    gridGap: 40,
   },
 });
 
@@ -60,7 +60,7 @@ export const Description = styled("p", {
   maxWidth: 400,
 
   bp2: {
-    fontSize: 16,
+    fontSize: 18,
     marginTop: 20,
   },
 });
