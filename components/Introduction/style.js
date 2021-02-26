@@ -75,16 +75,18 @@ export const Text = styled("h2", {
   fontSize: 38,
   fontWeight: 600,
   margin: 0,
+  marginBottom: 20,
 
   bp2: {
     fontSize: 34,
+    marginTop: 20,
+    marginBottom: 20,
   },
 });
 
 export const SubText = styled("p", {
   fontSize: 20,
   maxWidth: 400,
-  marginTop: 20,
 
   bp2: {
     fontSize: 16,
