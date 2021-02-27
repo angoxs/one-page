@@ -74,6 +74,6 @@ export const Button = styled("button", {
   },
 
   bp2: {
-    width: 160,
+    width: "100%",
   },
 });
