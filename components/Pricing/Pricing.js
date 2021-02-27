@@ -8,7 +8,7 @@ const company = "MAXUP";
 export default function Pricing() {
   return (
     <Fade>
-      <Frame>
+      <Frame id="pricing">
         <Column>
           <Company>{company}</Company>
           <Title>{title}</Title>

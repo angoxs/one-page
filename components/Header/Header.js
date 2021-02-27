@@ -9,6 +9,7 @@ import {
 } from "./style";
 import Fade from "react-reveal/Fade";
 import Client from "./Client";
+import { Link } from "react-scroll";
 
 const title = "Landing Template for Startups";
 const description =
@@ -22,7 +23,9 @@ export default function Header() {
         <Column>
           <Title>{title}</Title>
           <Description>{description}</Description>
-          <Button>{buttonText}</Button>
+          <Link to="pricing">
+            <Button>{buttonText}</Button>
+          </Link>
 
           <Image src="/images/3d-01.png" />
           <Grid>

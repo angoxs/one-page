@@ -5,7 +5,7 @@ export const Frame = styled("div", {
   flexDirection: "column",
   alignItems: "center",
   justifyContent: "center",
-  paddingTop: 0,
+  paddingTop: 50,
   paddingBottom: 0,
   margin: "0 auto",
 
