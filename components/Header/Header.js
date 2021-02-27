@@ -23,10 +23,9 @@ export default function Header() {
         <Column>
           <Title>{title}</Title>
           <Description>{description}</Description>
-          <Link to="pricing">
+          <Link to="pricing" smooth={true} spy={true} offset={-50}>
             <Button>{buttonText}</Button>
           </Link>
-
           <Image src="/images/3d-01.png" />
           <Grid>
             <Client logo="/logos/01.svg" />
