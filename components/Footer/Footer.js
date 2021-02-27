@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const terms = "Terms & Conditions";
 const policy = "Privacy Policy";
-const rights = "2021 All Rights Reserved";
+const rights = " All Rights Reserved";
 
 export default function Footer() {
   return (
@@ -22,7 +22,10 @@ export default function Footer() {
           <Description>{policy}</Description>
         </Terms>
         <Rights>
-          <Description>{rights}</Description>
+          <Description>
+            {new Date().getFullYear()}
+            {rights}
+          </Description>
         </Rights>
       </Row>
     </Frame>
