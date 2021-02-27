@@ -54,9 +54,9 @@ export const ImageFrame = styled("div", {
   },
 });
 
-const title = "High quality build from the flowbase crew.";
+const title = "High quality build from the maxup crew.";
 const description =
-  "We strive to provide the best free and premium content for all webflow creators. We've used best practises to ensure a high quality production level build.";
+  "We strive to provide the best free and premium content for all react creators. We've used best practises to ensure a high quality production level build.";
 
 export default function Row3() {
   return (

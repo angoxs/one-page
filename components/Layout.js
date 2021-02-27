@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { styled } from "../stitches.config";
+import Footer from "./Footer";
 import Navigation from "./Navigation";
 
 const Frame = styled("div", {
@@ -17,7 +18,7 @@ export default function Layout({ children }) {
   return (
     <div>
       <Head>
-        <title>Startup Page</title>
+        <title>MaxUp | React Landing Template </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <style>
@@ -26,6 +27,7 @@ export default function Layout({ children }) {
       </style>
       <Navigation />
       <Frame>{children}</Frame>
+      <Footer />
     </div>
   );
 }
