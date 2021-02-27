@@ -29,7 +29,8 @@ export const Row = styled("div", {
   bp2: {
     padding: "40px 20px",
     flexDirection: "column",
-    alignItems: "flex-start",
+    alignItems: "center",
+    textAlign: "center",
   },
 });
 
@@ -38,6 +39,10 @@ export const Column = styled("section", {
   flexDirection: "column",
   alignItems: "flex-start",
   justifyContent: "flex-start",
+
+  bp2: {
+    alignItems: "center",
+  },
 });
 
 export const Title = styled("h1", {
