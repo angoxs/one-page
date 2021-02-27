@@ -64,6 +64,8 @@ export const Image = styled("img", {
   width: "100%",
   marginTop: 80,
   marginBottom: 80,
+  border: "1px solid #1e253b",
+  borderRadius: 24,
 });
 
 export const Button = styled("button", {
@@ -73,14 +75,15 @@ export const Button = styled("button", {
   fontWeight: 500,
   cursor: "pointer",
   borderRadius: 8,
-  background: "#0059f7",
+  background: "#f8a2d6",
   color: "white",
   border: "none",
-  boxShadow: "0px 20px 40px rgba(0, 89, 247, 0.25)",
+  boxShadow: "0px 20px 40px rgba(248, 162, 214, 0.25)",
 
   ":hover": {
-    background: "#004ED9",
-    boxShadow: "0px 20px 40px rgba(0, 89, 247, 0.35)",
+    background: "white",
+    color: "#f8a2d6",
+    boxShadow: "0px 20px 40px rgba(248, 162, 214, 0.35)",
   },
 
   bp2: {

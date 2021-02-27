@@ -1,3 +1,6 @@
+import Row1 from "./Row1";
+import Row2 from "./Row2";
+import Row3 from "./Row3";
 import {
   Frame,
   Row,
@@ -26,15 +29,9 @@ export default function Introduction() {
           building!
         </Description>
       </Column>
-      <Row>
-        <ImageFrame>
-          <img src="/copyright.svg" />
-        </ImageFrame>
-        <TitleFrame>
-          <Text>{title}</Text>
-          <SubText>{description}</SubText>
-        </TitleFrame>
-      </Row>
+      <Row1 />
+      <Row2 />
+      <Row3 />
     </Frame>
   );
 }

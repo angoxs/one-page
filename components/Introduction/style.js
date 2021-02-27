@@ -101,6 +101,9 @@ export const TitleFrame = styled("div", {
 });
 
 export const ImageFrame = styled("div", {
+  border: "1px solid #1e253b",
+  borderRadius: 24,
+
   img: {
     width: "100%",
   },

@@ -24,7 +24,7 @@ export const Column = styled("section", {
   maxWidth: 900,
   width: "100%",
   margin: "0 auto",
-  background: "#0059f7",
+  background: "#84cffe",
   borderRadius: 24,
   padding: 80,
   textAlign: "center",
@@ -46,7 +46,7 @@ export const Title = styled("h1", {
 });
 
 export const Description = styled("p", {
-  color: "#86adfc",
+  color: "#419df0",
   fontWeight: 500,
   fontSize: 20,
 
@@ -62,13 +62,15 @@ export const Button = styled("button", {
   fontWeight: 500,
   cursor: "pointer",
   borderRadius: 8,
-  background: "#689eff",
+  background: "#f8a2d6",
   color: "white",
   border: "none",
+  boxShadow: "0px 20px 40px rgba(248, 162, 214, 0.25)",
 
   ":hover": {
-    color: "#004ed9",
+    color: "#f8a2d6",
     background: "white",
+    boxShadow: "0px 20px 40px rgba(248, 162, 214, 0.35)",
   },
 
   bp2: {
