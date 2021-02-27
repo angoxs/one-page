@@ -44,7 +44,7 @@ export const Button = styled("button", {
   border: "none",
 
   ":hover": {
-    color: "#004ed9",
+    color: "#f7a0d4",
   },
 
   bp2: {

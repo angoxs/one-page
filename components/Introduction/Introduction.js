@@ -23,12 +23,14 @@ export default function Introduction() {
   return (
     <Frame>
       <Column>
-        <Company>MAXUP</Company>
-        <Title>How does it work?</Title>
-        <Description>
-          Our landing page template works on all devices, so clone and get
-          building!
-        </Description>
+        <Fade>
+          <Company>MAXUP</Company>
+          <Title>How does it work?</Title>
+          <Description>
+            Our landing page template works on all devices, so clone and get
+            building!
+          </Description>
+        </Fade>
       </Column>
       <Fade up>
         <Row1 />
