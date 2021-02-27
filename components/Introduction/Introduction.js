@@ -13,6 +13,7 @@ import {
   Text,
   SubText,
 } from "./style";
+import Fade from "react-reveal/Fade";
 
 const title = "Super easy to customize.";
 const description =
@@ -29,9 +30,11 @@ export default function Introduction() {
           building!
         </Description>
       </Column>
-      <Row1 />
-      <Row2 />
-      <Row3 />
+      <Fade up>
+        <Row1 />
+        <Row2 />
+        <Row3 />
+      </Fade>
     </Frame>
   );
 }
