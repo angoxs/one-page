@@ -1,4 +1,4 @@
-import { CTA, Features, Header, Introduction } from "../components";
+import { CTA, CTA2, Features, Header, Introduction } from "../components";
 import Layout from "../components/Layout";
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <Features />
       <CTA />
       <Introduction />
+      <CTA2 />
     </Layout>
   );
 }
