@@ -31,12 +31,22 @@ const Title = styled("h4", {
 
   span: {
     color: "rgba(255,255,255,0.1)",
+    fontSize: 50,
+  },
+
+  bp2: {
+    fontSize: 50,
+    marginTop: 20,
   },
 });
 
 const Description = styled("p", {
   fontSize: 20,
   color: "rgba(255, 255, 255, 0.6)",
+
+  bp2: {
+    fontSize: 18,
+  },
 });
 
 const Divider = styled("div", {
