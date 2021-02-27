@@ -27,7 +27,7 @@ export const Column = styled("section", {
 
   bp2: {
     flexDirection: "column",
-    alignItems: "flex-start",
+    alignItems: "center",
   },
 });
 

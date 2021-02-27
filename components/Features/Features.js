@@ -30,27 +30,27 @@ export default function Features() {
           />
           <Feature
             icon="/icons/chat.svg"
-            title="Dashboard"
+            title="Comment"
             description="A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise layouts for previewing layouts and visual mockups."
           />
           <Feature
             icon="/icons/activity.svg"
-            title="Dashboard"
+            title="Tailored Comments"
             description="A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise layouts for previewing layouts and visual mockups."
           />
           <Feature
             icon="/icons/add-user.svg"
-            title="Dashboard"
+            title="Statistic"
             description="A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise layouts for previewing layouts and visual mockups."
           />
           <Feature
             icon="/icons/swap.svg"
-            title="Dashboard"
+            title="Profiles"
             description="A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise layouts for previewing layouts and visual mockups."
           />
           <Feature
             icon="/icons/folder.svg"
-            title="Dashboard"
+            title="Folders"
             description="A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise layouts for previewing layouts and visual mockups."
           />
         </Grid>
