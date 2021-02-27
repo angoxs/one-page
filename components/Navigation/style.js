@@ -32,7 +32,7 @@ export const Title = styled("h1", {
   },
 });
 
-export const Button = styled("button", {
+export const Button = styled("a", {
   height: 50,
   width: 200,
   fontSize: 14,
@@ -42,6 +42,9 @@ export const Button = styled("button", {
   background: "white",
   color: "black",
   border: "none",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
 
   ":hover": {
     color: "#f7a0d4",

@@ -8,7 +8,10 @@ export default function Navigation() {
     <Frame>
       <Row>
         <Title>{title}</Title>
-        <Button>{buttonText}</Button>
+        <script src="https://gumroad.com/js/gumroad.js"></script>
+        <Button href="https://gum.co/dzIAIv" target="_blank">
+          {buttonText}
+        </Button>
       </Row>
     </Frame>
   );
