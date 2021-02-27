@@ -24,7 +24,7 @@ export default function Header() {
           <Description>{description}</Description>
           <Button>{buttonText}</Button>
 
-          <Image src="/3d-01.png" />
+          <Image src="/images/3d-01.png" />
           <Grid>
             <Client logo="/logos/01.svg" />
             <Client logo="/logos/02.svg" />

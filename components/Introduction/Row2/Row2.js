@@ -69,7 +69,7 @@ export default function Row2() {
         <Description>{description}</Description>
       </TitleFrame>
       <ImageFrame>
-        <img src="/elements-02.png" />
+        <img src="/images/elements-02.png" />
       </ImageFrame>
     </Frame>
   );

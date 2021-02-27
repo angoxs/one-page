@@ -62,7 +62,7 @@ export default function Row3() {
   return (
     <Frame>
       <ImageFrame>
-        <img src="/elements-03.png" />
+        <img src="/images/elements-03.png" />
       </ImageFrame>
       <TitleFrame>
         <Title>{title}</Title>

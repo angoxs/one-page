@@ -62,7 +62,7 @@ export default function Row1() {
   return (
     <Frame>
       <ImageFrame>
-        <img src="/element-01.png" />
+        <img src="/images/element-01.png" />
       </ImageFrame>
       <TitleFrame>
         <Title>{title}</Title>
