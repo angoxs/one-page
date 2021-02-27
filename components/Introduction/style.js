@@ -6,7 +6,7 @@ export const Frame = styled("div", {
   alignItems: "center",
   justifyContent: "center",
   paddingTop: 150,
-  paddingBottom: 150,
+  paddingBottom: 180,
 
   bp2: {
     paddingTop: 90,

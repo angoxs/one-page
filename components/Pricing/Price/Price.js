@@ -46,11 +46,6 @@ const Divider = styled("div", {
   marginBottom: 30,
 });
 
-const Row = styled("div", {
-  display: "flex",
-  alignItems: "center",
-});
-
 export const Button = styled("button", {
   height: 60,
   width: 220,
@@ -58,10 +53,10 @@ export const Button = styled("button", {
   fontWeight: 500,
   cursor: "pointer",
   borderRadius: 8,
-  background: "#f8a2d6",
-  color: "white",
+  background: "white",
+  color: "black",
   border: "none",
-  boxShadow: "0px 20px 40px rgba(248, 162, 214, 0.25)",
+  boxShadow: "0px 20px 40px rgba(255, 255, 255, 0.25)",
   marginTop: 30,
 
   ":nth-child(2)": {

@@ -1,20 +1,8 @@
 import { styled } from "../../../../stitches.config";
 
-const Description = styled("p", {
-  fontSize: 20,
-  color: "rgba(255, 255, 255, 0.6)",
-});
-
 const Icon = styled("img", {
   width: 24,
   height: 24,
-});
-
-const Divider = styled("div", {
-  height: 3,
-  width: "100%",
-  background: "rgba(255,255,255,0.1)",
-  marginBottom: 30,
 });
 
 const Frame = styled("div", {
@@ -27,6 +15,10 @@ const Title = styled("p", {
   fontSize: 16,
   color: "white",
   marginLeft: 15,
+
+  bp2: {
+    fontSize: 15,
+  },
 });
 
 export default function Benefit(props) {
